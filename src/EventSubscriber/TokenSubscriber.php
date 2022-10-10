@@ -16,11 +16,10 @@ use Firebase\JWT\Key;
 
 class TokenSubscriber implements EventSubscriberInterface
 {
-    // private $tokens;
 
     public function __construct()
     {
-        // $this->tokens = [];
+       
     }
 
     public function onKernelController(ControllerEvent $event)
@@ -51,7 +50,6 @@ class TokenSubscriber implements EventSubscriberInterface
                         throw new \Exception("error Scope", 1);
                     }
                 } else {
-               //     dd($_ENV["MS_SCOPE"]);
                     if ($_ENV['MS_SCOPE'] != $user->scopes) {
                         throw new \Exception("error Scope", 1);
                     }

@@ -6,8 +6,9 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use App\Document\Product;
 use Doctrine\ODM\MongoDB\DocumentManager;
+use App\Controller\TokenAuthenticatedController;
 
-class ProductController extends AbstractController
+class ProductController extends AbstractController implements TokenAuthenticatedController
 {
     public function index()
     {

@@ -1,6 +1,9 @@
 index:
    path: /
    controller: App\Controller\DefaultController::index
+bar:
+   path: /bar
+   controller: App\Controller\FooController::bar   
 product:
    path: /api/product
    controller: App\Controller\ProductController::createAction

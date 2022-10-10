@@ -4,6 +4,11 @@ index:
 product:
    path: /api/product
    controller: App\Controller\ProductController::createAction
+   methods: POST
+product_list:
+   path: /api/product
+   controller: App\Controller\ProductController::index
+   methods: GET
 api:
    path: /api
    controller: App\Controller\DefaultController::index

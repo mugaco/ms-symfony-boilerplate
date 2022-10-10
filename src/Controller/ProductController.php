@@ -9,6 +9,10 @@ use Doctrine\ODM\MongoDB\DocumentManager;
 
 class ProductController extends AbstractController
 {
+    public function index()
+    {
+        return new Response('Lo que sería una lista de productos');
+    }
     public function createAction(DocumentManager $dm)
     {
         $product = new Product();

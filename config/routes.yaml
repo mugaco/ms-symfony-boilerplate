@@ -1,3 +1,9 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index:
+   path: /
+   controller: App\Controller\DefaultController::index
+product:
+   path: /api/product
+   controller: App\Controller\ProductController::createAction
+api:
+   path: /api
+   controller: App\Controller\DefaultController::index

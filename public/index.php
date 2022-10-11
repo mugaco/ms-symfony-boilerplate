@@ -1,5 +1,5 @@
 <?php
-header("Access-Control-Allow-Origin: http://q-ms-cliente-dos.josemanuelmunoz.com");
+header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: *");
 use App\Kernel;
 

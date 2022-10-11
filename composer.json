@@ -9,6 +9,7 @@
         "ext-iconv": "*",
         "doctrine/mongodb-odm-bundle": "^4.5",
         "firebase/php-jwt": "^6.3",
+        "nelmio/cors-bundle": "^2.2",
         "symfony/console": "5.4.*",
         "symfony/dotenv": "5.4.*",
         "symfony/flex": "^1.17|^2",
